@@ -3,8 +3,16 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
+/**
+ * Unit test for the CenozoicAnimalFactory.
+ * Verifies correct era, animals created, and their attributes.
+ */
 public class CenozoicAnimalFactoryTest {
 
+    /**
+     * Tests the output of the CenozoicAnimalFactory, including lists of animals
+     * and their properties. Also prints formatted exhibition sections.
+     */
     @Test
     public void testCenozoicFactoryOutput() {
         AnimalAbstractFactory factory = new CenozoicAnimalFactory();
@@ -45,6 +53,7 @@ public class CenozoicAnimalFactoryTest {
         assertEquals("Argentavis", skyAnimals.get(0).getName());
     }
 }
+
 
 
 

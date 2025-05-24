@@ -3,8 +3,16 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
+/**
+ * Unit test for the JurassicAnimalFactory.
+ * Verifies correct era, animals created, and their attributes.
+ */
 public class JurassicAnimalFactoryTest {
 
+    /**
+     * Tests the output of the JurassicAnimalFactory, including lists of animals
+     * and their properties. Also prints formatted exhibition sections.
+     */
     @Test
     public void testJurassicFactoryOutput() {
         AnimalAbstractFactory factory = new JurassicAnimalFactory();
